@@ -1,0 +1,770 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "New Scene - 001",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 7
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          }
+        },
+        {
+          "__type__": "493b4Ms8KROR5M/KVF09vmH",
+          "node": {
+            "__id__": 2
+          },
+          "card1": {
+            "__id__": 6
+          },
+          "card2": {
+            "__id__": 9
+          },
+          "card3": {
+            "__id__": 11
+          },
+          "card4": {
+            "__id__": 13
+          }
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 960,
+        "height": 640
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          480,
+          320,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_id": "a8eMwKyTJMJ6TW9aAo5XMv"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          255.5749378317339,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Sprite(Splash)",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 121,
+        "g": 121,
+        "b": 121
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1280,
+        "height": 960
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 7,
+      "groupIndex": 7
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 2
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 5
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Spades Online Test v2.2.2",
+          "_N$string": "Spades Online Test v2.2.2",
+          "_fontSize": 60,
+          "_lineHeight": 60,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 700.43,
+        "height": 75.6
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          268.431,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_groupIndex": 7,
+      "groupIndex": 7
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "card1",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 15
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 6
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 300
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -200,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "card",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 9
+        },
+        {
+          "__id__": 11
+        },
+        {
+          "__id__": 13
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          480,
+          320,
+          1000,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true,
+      "_id": "927IjuzmVOPqRFTlI3o5Hv"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "cardCamera",
+      "_parent": {
+        "__id__": 7
+      },
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 8
+          },
+          "_cullingMask": -129,
+          "_nearClip": 0.1,
+          "_ortho": false,
+          "_alignWithScreen": false
+        }
+      ],
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          -496.046,
+          664.875,
+          0.25881904510252074,
+          0,
+          0,
+          0.9659258262890683,
+          1,
+          1,
+          1
+        ]
+      },
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "x": 30
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "card2",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 10
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 9
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 300
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 9
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 10
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Card 2",
+          "_N$string": "Card 2",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 120.06,
+        "height": 50.4
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "card3",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 12
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 11
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 300
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          -300,
+          0,
+          0,
+          0,
+          0,
+          0.7071067811865476,
+          -0.7071067811865475,
+          1,
+          1,
+          1
+        ]
+      },
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "z": 270
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 11
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 12
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Card 3",
+          "_N$string": "Card 3",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 120.06,
+        "height": 50.4
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "card4",
+      "_parent": {
+        "__id__": 7
+      },
+      "_children": [
+        {
+          "__id__": 14
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 13
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 300
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          300,
+          0,
+          0,
+          0,
+          0,
+          0.7071067811865475,
+          0.7071067811865476,
+          1,
+          1,
+          1
+        ]
+      },
+      "_eulerAngles": {
+        "__type__": "cc.Vec3",
+        "z": 90
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 13
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 14
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Card 4",
+          "_N$string": "Card 4",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 2
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 120.06,
+        "height": 50.4
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "New Label",
+      "_parent": {
+        "__id__": 6
+      },
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 15
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "Card 1",
+          "_N$string": "Card 1",
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 120.06,
+        "height": 50.4
+      },
+      "_trs": {
+        "__type__": "TypedArray",
+        "ctor": "Float64Array",
+        "array": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "_is3DNode": true
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_sprite_splash",
+      "texture": "02delMVqdBD70a/HSD99FK",
+      "rect": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        2,
+        2
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
